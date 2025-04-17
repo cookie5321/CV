@@ -1,4 +1,8 @@
+> [!NOTE]
+> PDF: https://github.com/cookie5321/portfolio/raw/refs/heads/main/portfolio.pdf
+
 # 헬트래커
+https://github.com/cookie5321/healtracker
 - 지금까지 한 운동을 기록하고 간편하게 모아볼 수 있는 간단한 운동 기록 사이트입니다. 로그인을 지원하여 사용자 별로 운동 기록이 분리됩니다.
 - 백엔드
 	- Express를 사용하여 REST API를 구현하였습니다. 라우팅을 처리하고, 유저가 구분되는 API 호출에 대해서는 requireAuth 미들웨어를 사용하여 올바른 jwt 토큰인지, 로그인이 되어 있는지 판별합니다.
@@ -9,6 +13,7 @@
 	- React의 Context API를 사용하여 일일이 prop을 통해서 하위 component에 값을 넘겨 주지 않고도 상태를 업데이트할 수 있도록 하였습니다.
 
 # LMS
+https://github.com/cookie5321/LMS2
 - Express를 사용하여 학습 관리 시스템(Learning Management System)을 제작하였습니다. 교수는 수업을 개설하고 각 수업마다 게시물을 올릴 수 있습니다. 학생은 계정을 생성하고 로그인하여 원하는 수업을 신청하고 신청한 수업의 게시물의 확인할 수 있습니다.
 - Pug template engine을 사용하여 server-side에서 렌더링을 진행합니다.
 - express-session을 통해 로그인 세션을 관리하고, MariaDB를 DB로 사용합니다. SQL문을 통해 트랜잭션을 수행합니다.
